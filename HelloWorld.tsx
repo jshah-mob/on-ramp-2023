@@ -4,7 +4,7 @@ import { View,Text,StyleSheet } from 'react-native'
 const HelloWorld = () => {
   return (
         <View style={styles.Card}>
-            <Text>Hello Rohit Sharma!</Text>
+            <Text>Hello Name!</Text>
         </View>
     )
 }
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 23,
+        fontSize: 50,
         borderRadius: 10,
         borderWidth: 1,
         borderColor: 'Grey'
